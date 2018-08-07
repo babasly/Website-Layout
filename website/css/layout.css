@@ -1,0 +1,450 @@
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700|Raleway:200,400,700);*/
+
+html, body
+{   
+padding: 0px;   
+margin: 0px;
+}
+
+body
+{    
+font-family: 'Open Sans', sans-serif;
+font-size: 13px;
+}
+
+.top, .body, .footer
+{    
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
+
+.top
+{
+box-shadow: 0px 0px 5px #000;
+ position: fixed;
+ z-index: 1001;
+ background: #fff;
+}
+
+.top .main-row
+{
+min-height: 50px;
+}
+
+.top .menu-row
+{            
+background: #333;           
+color: #FFF;
+width: 100%;
+padding: 5px;
+}
+    
+.body
+{        
+min-height: 500px;   
+}
+        
+.body .banner-home
+{
+ min-height: 320px;           
+border-bottom: solid 5px #999;
+}
+        
+.body .banner-page
+{
+min-height: 160px;
+border-bottom: solid 5px #999;
+}
+
+.body .content
+{
+padding: 35px 10px;
+width: 100%;
+}
+
+.copyright
+{            
+background: #333;           
+color: #FFF;
+width: 100%;
+}
+/* ------------ EXTRAS --------------*/
+
+
+.banner
+{
+background: #000;
+width: 100%;
+}
+
+
+/*-----CUSTOMIZATION -----*/
+
+
+.full
+{ 
+width: 100%; 
+}
+
+.tleft
+{ 
+text-align: left; 
+}
+
+.tcenter
+{ 
+text-align: center; 
+}
+
+.tright
+{ 
+text-align: right; 
+}
+
+.left-to-center
+{ 
+text-align: center; 
+}
+
+.right-to-center
+{ 
+text-align: center; 
+}
+
+.lgfont
+{ 
+font-size: 120%; 
+}
+
+.nmfont
+{ 
+font-size: 100%; 
+}
+
+.mdfont
+{ 
+font-size: 90%; 
+}
+
+.smfont
+{ 
+font-size: 80%; 
+}
+
+.upper
+{ 
+text-transform: uppercase; 
+}
+
+.onecap
+{ 
+text-transform: capitalize; 
+}
+
+.lower
+{ 
+text-transform: lowercase; 
+}
+
+.strong
+{ 
+font-weight: bold; 
+} 
+ 
+.left
+{ 
+float: left;
+}
+
+.right
+{ 
+float: right;
+}
+
+.center
+{ 
+margin: auto;
+}
+
+.paddless
+{ 
+padding: 0px; 
+}
+
+.margless
+{
+ margin: 0px; 
+}
+
+.margtop0
+{ 
+margin-top: 0px; 
+}
+
+.margleft0
+{ 
+margin-left: 0px; 
+}
+
+.margbase0
+{ 
+margin-bottom: 0px; 
+}
+
+.margright0
+{ 
+margin-right: 0px; 
+}
+
+.paddl5
+{
+padding-left: 5px;
+}
+
+.paddl10
+{
+padding-left: 10px;
+}
+
+.paddl15
+{
+padding-left: 15px;
+}
+
+.paddr5
+{
+padding-right: 5px;
+}
+
+.paddr10
+{
+padding-right: 10px;
+}
+
+.paddr15
+{
+padding-right: 15px;
+}
+
+.marginl5
+{
+margin-left: 5px;
+}
+
+.marginl10
+{
+margin-left: 10px;
+}
+
+.marginl15
+{
+margin-left: 15px;
+}
+
+.marginr5
+{
+margin-right: 5px;
+}
+
+.marginr10
+{
+margin-right: 10px;
+}
+
+.marginr15
+{
+margin-right: 15px;
+}
+
+.padd5
+{ 
+padding: 5px; 
+}
+
+.padd10
+{ 
+padding: 10px; 
+}
+
+.padd15
+{ 
+padding: 15px; 
+}
+
+.base5
+{ 
+margin-bottom: 5px; 
+}
+
+.base10
+{ 
+margin-bottom: 10px; 
+}
+
+.base15
+{ 
+margin-bottom: 15px; 
+}
+
+.paddless
+{ 
+padding: 0px; 
+}
+
+.margless
+{ 
+margin: 0px;  
+}
+
+.full
+{ 
+width: 100%; 
+}
+
+.top5
+{ 
+margin-top: 5px; 
+}
+
+.top10
+{ 
+margin-top: 10px; 
+}
+
+.top15
+{ 
+margin-top: 15px; 
+}
+
+.base5
+{ 
+margin-bottom: 5px; 
+}
+
+.base10
+{ 
+margin-bottom: 10px; 
+}
+
+.base15
+{ 
+margin-bottom: 15px; 
+}
+
+.push-up5
+{ 
+padding-top: 5px; 
+}
+
+.push-up10
+{ 
+padding-top: 10px; 
+}
+
+.push-up15
+{ 
+padding-top: 15px; 
+}
+
+.push-down5
+{ 
+padding-bottom: 5px; 
+}
+
+.push-down10
+{ 
+padding-bottom: 10px; 
+}
+
+.push-down15
+{ 
+padding-bottom: 15px; 
+}
+
+.float-upper-5
+{ 
+margin-top: -5px; 
+}
+
+.float-upper-10
+{ 
+margin-top: -10px; 
+}
+
+.float-upper-15
+{ 
+margin-top: -15px; 
+}
+
+.no-shadow
+{
+ box-shadow: none;
+}
+
+.rad2
+{ 
+border-radius: 2px; 
+}
+
+.rad3
+{ 
+border-radius: 3px; 
+}
+
+.fwhite
+{ 
+color: #FFF; 
+}
+
+.clear
+{    
+clear: both;   
+line-height: 0px;
+font-size: 0px;
+}
+
+.info-line
+{
+list-style: none;
+float: left;
+width: 100%;
+}
+
+.info-line a
+{
+font-weight: 300;
+padding: 7px 5px;
+border-bottom: solid 1px #EEE;
+float: left;
+width: 100%;
+}
+    
+.info-line a:hover
+{
+color: #333;
+}
+
+.float-to-upper
+{    
+margin-top: -20px;
+}
+
+.pod
+{
+height: 150px;
+}
+
+.in-pod
+{
+height: 100px;
+}
+
+
+/*----------- EXTEND MATERIALIZE ---*/
+
+.card
+{
+border-radius: 0px;    
+margin: 0px;
+}
